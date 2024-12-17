@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta information for the page -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Users with Cards</title>
+
+    <!-- Link to external CSS file for styling -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- Header section with the page title -->
+    <header>
+        Want new friends?
+    </header>
+
+    <main>
+        <!-- Heading and description -->
+        <h1>Meet Random Users</h1>
+        <p>Below are dynamically fetched user profiles from the Random User API.</p>
+
+        <!-- Button to fetch new random user when clicked -->
+        <button class="fetch-button" onclick="fetchRandomUser()">Fetch New User</button>
+
+        <!-- Container to hold the dynamically created user cards -->
+        <section class="cards-container" id="cards-container">
+            <!-- The user card will be dynamically added here -->
+        </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        &copy; 2024 NK Website | Random Users Example
+    </footer>
+
+    <!-- Link to external JavaScript file to handle data fetching and DOM updates -->
+    <script src="script.js"></script>
+</body>
+</html>
